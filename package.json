@@ -31,5 +31,17 @@
   "scripts": {
     "build": "jspm bundle-sfx index.js assets/js/scripts/bundle.js",
     "postinstall": "jspm init && jspm install react react-dom css"
+  },
+  "jspm": {
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.32",
+      "react": "npm:react@^15.3.2",
+      "react-dom": "npm:react-dom@^15.3.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import Title from './Title';
 import Intro from './Intro';
+import Form from './Form';
 
 class Main extends Component {
     render () {
         return (
-            <main id="main" className="large-12 medium-12 columns" role="main">
+            <section>
                 <Title />
                 <Intro/>
-            </main>
+                <Form />
+            </section>
         );
     }
 }

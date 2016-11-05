@@ -118,7 +118,7 @@ gulp.task('browsersync', function() {
 
     browserSync.init(files, {
 	    // Replace with URL of your local site
-	    proxy: "http://localhost/",
+	    proxy: "local.wordpress.dev",
     });
 
     gulp.watch('./assets/js/components/*.js').on('change', browserSync.reload);

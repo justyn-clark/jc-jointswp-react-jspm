@@ -1,4 +1,8 @@
+"use strict";
+
 jQuery(document).foundation();
+'use strict';
+
 /*
 These functions make sure WordPress
 and Foundation play nice together.

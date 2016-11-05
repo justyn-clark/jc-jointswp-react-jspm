@@ -1,0 +1,14 @@
+import React from 'react';
+
+const Label = (props) =>
+
+<label>Select Menu
+    <select>
+        <option value="husker">Husker</option>
+        <option value="starbuck">Starbuck</option>
+        <option value="hotdog">Hot Dog</option>
+        <option value="apollo">Apollo</option>
+    </select>
+</label>
+
+export default Label

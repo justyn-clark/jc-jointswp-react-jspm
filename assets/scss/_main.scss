@@ -64,8 +64,12 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
+	background-color: #545454;
 	.title-area {
 		z-index: 1;
+	}
+	ul {
+		background-color: transparent;
 	}
 } 
 
