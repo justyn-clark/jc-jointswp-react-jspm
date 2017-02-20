@@ -1,4 +1,4 @@
-Currently using Foundation 6.2.3
+Currently using Foundation 6.3
 
 ### What is JC JointsWP React JSPM SASS?
 JC JointsWP React JSPM SASS is a blank WordPress theme built with Foundation 6, giving you all the power and flexibility you need to build complex, mobile friendly websites without having to start from scratch.
